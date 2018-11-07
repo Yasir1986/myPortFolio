@@ -19,6 +19,26 @@ class Landing extends Component {
                         <hr/>
 
                     <p>HTML/CSS | JavaScript | React/Redux | Nodejs/Express</p>
+
+                    <div className="social-links">
+
+                    {/*Github*/}
+                        <a href="https://github.com/Yasir1986" rel="noopener noreferrer" target="blank"> 
+                        <i class="fa fa-github-square" aria-hidden="true" />
+                        </a>
+
+                    {/*Linkedin*/}
+                    <a href="https://www.linkedin.com/in/yasir-akbar-2b534513b/" rel="noopener noreferrer" target="blank"> 
+                        <i class="fa fa-linkedin-square" aria-hidden="true" />
+                        </a>
+
+                      {/*Facebook*/}
+                      <a href="https://www.facebook.com/yasir.akbar86" rel="noopener noreferrer" target="blank"> 
+                        <i class="fa fa-facebook-square" aria-hidden="true" />
+                        </a>
+                        
+
+                    </div>
                         </div>
                     </Cell>
                 </Grid> 
