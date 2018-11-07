@@ -14,7 +14,11 @@ class Landing extends Component {
                         />
 
                         <div className="banner-text">
-                        <h1>landing page / home</h1> 
+                        <h1>Front End Developer</h1> 
+
+                        <hr/>
+
+                    <p>HTML/CSS | JavaScript | React/Redux | Nodejs/Express</p>
                         </div>
                     </Cell>
                 </Grid> 
