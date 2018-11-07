@@ -28,15 +28,30 @@ class Contact extends Component {
 
             <div className="contact-list">
             <List>
+
                 <ListItem>
-                  <ListItemContent icon="person">Bryan Cranston</ListItemContent>
+                  <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                  <i className="fa fa-phone-square" aria-hidden = "true" ></i>
+                    +358458490190
+                    </ListItemContent>
                 </ListItem>
+
                 <ListItem>
-                  <ListItemContent icon="person">Aaron Paul</ListItemContent>
+                  <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                  <i className="fa fa-envelope" aria-hidden = "true" ></i>
+                    yasir.akbar86@hotmail.com
+                    </ListItemContent>
                 </ListItem>
+
                 <ListItem>
-                  <ListItemContent icon="person">Bob Odenkirk</ListItemContent>
+                  <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                  <i className="fa fa-skype" aria-hidden = "true" ></i>
+                    MySkypeId
+                    </ListItemContent>
                 </ListItem>
+                
+
+
               </List>
             </div>
               
