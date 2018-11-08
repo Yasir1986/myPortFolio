@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Cell, ListItem, ListItemContent, List } from "react-mdl";
+import MiniFooter from '../Footer/footer';
 
 class Contact extends Component {
   render() {
@@ -10,16 +11,11 @@ class Contact extends Component {
             <Cell col={6}>
               <h2>Yasir Akbar</h2>
               <img
-                src="https://openclipart.org/image/2400px/svg_to_png/277081/Male-Avatar.png"
+                src="https://praveenmp.github.io/avatar2.jpg"
                 alt="avatar"
                 style={{ height: "250px" }}
               />
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
-              </p>
+              <p>I am Front End Developer with knowledge of Back End as well. I love to develop and maintain websites and single page applications. For any kind of inquiry, conatct me :)</p>
             </Cell>
 
             <Cell col={6}>
@@ -57,6 +53,7 @@ class Contact extends Component {
               
             </Cell>
           </Grid>
+          <MiniFooter />
         </div>
       </div>
     );

@@ -3,6 +3,7 @@ import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
+import Minifooter from '../Footer/footer';
 
 class Resume extends Component {
     render () {
@@ -12,7 +13,7 @@ class Resume extends Component {
                     <Cell col={4}>
                     <div style={{textAlign: 'center'}}>
                     <img 
-                    src="https://openclipart.org/image/2400px/svg_to_png/277081/Male-Avatar.png"
+                    src="https://praveenmp.github.io/avatar2.jpg"
                     alt = "avatar"
                     style= {{height: '200px'}}
                     />
@@ -21,16 +22,16 @@ class Resume extends Component {
                     <h2 style={{paddingTop: '2rem'}}>Yasir Akbar</h2>
                     <h4 style={{color: 'grey'}}>Front End Developer</h4>
                     <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
+                    <p>I am self taught coder. Start learning coding when i need to build my own website for my business. After it, I did couples of projects as freelancer and build websites for my friends and family until i landed my first Front End Developer Job at Integrify</p>
                     <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} />
                     <h5>Address</h5>
-                    <p>Hacker Way Menlo Park, 94025</p>
+                    <p>Helsinki, Finland</p>
                     <h5>Phone</h5>
                     <p>+358458490190</p>
                     <h5>Email</h5>
                     <p>yasir.akbar86@hotmail.com</p>
                     <h5>WebSite</h5>
-                    <p>www.yasirakbar.com</p>
+                    <p>www.still-to-come.com</p>
 
                     </Cell>
                     <Cell className="resume-right-col" col={8}>
@@ -97,17 +98,17 @@ class Resume extends Component {
 
                     <Skills 
                         skill="HTML/CSS"    
-                        progress={100}           
+                        progress={90}           
                     />
 
                      <Skills 
                         skill="JavaScript"    
-                        progress={75}           
+                        progress={70}           
                     />
 
                      <Skills 
                         skill="React/Redux"    
-                        progress={80}           
+                        progress={75}           
                     />
 
                      <Skills 
@@ -117,6 +118,7 @@ class Resume extends Component {
 
                     </Cell>
                 </Grid>
+                <Minifooter />
             </div>
         )
     }

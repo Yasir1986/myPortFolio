@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import  { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import Minifooter from '../Footer/footer';
 
 class Projects extends Component {
     
@@ -64,6 +65,9 @@ class Projects extends Component {
                 </Grid>
                 
             </section>
+
+            <Minifooter />
+            
             </div>
         )
     }

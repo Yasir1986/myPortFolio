@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+import MiniFooter from '../Footer/footer';
 
 class Landing extends Component {
     render () {
@@ -8,7 +9,7 @@ class Landing extends Component {
                 <Grid className="landing-grid">
                     <Cell col={12}>
                         <img 
-                        src="https://openclipart.org/image/2400px/svg_to_png/277081/Male-Avatar.png"
+                        src="https://praveenmp.github.io/avatar2.jpg"
                         alt="avatar"
                         className="avatar-img"
                         />
@@ -39,12 +40,11 @@ class Landing extends Component {
                         
 
                     </div>
+                  
                         </div>
-                    </Cell>
+                        <MiniFooter />
+                    </Cell>   
                 </Grid> 
-
-                
-             
             </div>
         )
     }
