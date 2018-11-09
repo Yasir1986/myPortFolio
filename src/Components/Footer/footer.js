@@ -6,7 +6,7 @@ class Minifooter extends Component {
     render() {
         return (
             <Footer size="mini">
-    <FooterSection type="middle">
+    <FooterSection type="right" title="">
         <FooterLinkList>
             <a href="/resume">Resume</a>
             <a href="/about">About Me</a>
@@ -14,6 +14,7 @@ class Minifooter extends Component {
             <a href="/contact">Contacts</a>
         </FooterLinkList>
     </FooterSection>
+    <p>© 2018 Yasir All Rights Reserved</p>
 </Footer>
         )
     }
