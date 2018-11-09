@@ -9,7 +9,6 @@ class Minifooter extends Component {
     <FooterSection type="right" title="">
         <FooterLinkList>
             <a href="/resume">Resume</a>
-            <a href="/about">About Me</a>
             <a href="/projects">Projects</a>
             <a href="/contact">Contacts</a>
         </FooterLinkList>
