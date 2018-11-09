@@ -4,6 +4,7 @@ import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
 import Minifooter from '../Footer/footer';
+import '../Resume/style.css';
 
 class Resume extends Component {
     render () {

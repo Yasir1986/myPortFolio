@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell, ProgressBar } from 'react-mdl';
+import '../Resume/style.css';
 
 class Skills extends Component {
     render() {

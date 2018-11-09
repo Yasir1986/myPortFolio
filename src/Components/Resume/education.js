@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+import '../Resume/style.css';
 
 class Education extends Component {
     render() {
