@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Grid, Cell, ListItem, ListItemContent, List } from "react-mdl";
-import MiniFooter from '../Footer/footer';
 import '../Contact/style.css';
 
 class Contact extends Component {
@@ -54,7 +53,6 @@ class Contact extends Component {
               
             </Cell>
           </Grid>
-          <MiniFooter />
         </div>
       </div>
     );

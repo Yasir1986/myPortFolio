@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import MiniFooter from '../Footer/footer';
 import '../Landing/style.css';
 
 
@@ -25,9 +24,9 @@ class Landing extends Component {
 
                     <div className="social-links">
 
-                    {/*Github*/}
-                        <a href="https://github.com/Yasir1986" rel="noopener noreferrer" target="blank"> 
-                        <i class="fa fa-github-square" aria-hidden="true" />
+                    {/*Github*/} 
+                       <a href="https://github.com/Yasir1986" rel="noopener noreferrer" target="blank"> 
+                       <i class="fa fa-github-square" aria-hidden="true" />
                         </a>
 
                     {/*Linkedin*/}
@@ -44,7 +43,6 @@ class Landing extends Component {
                     </div>
                   
                         </div>
-                        <MiniFooter />
                     </Cell>   
                 </Grid> 
             </div>

@@ -5,8 +5,8 @@ import { Footer, FooterSection, FooterLinkList } from 'react-mdl';
 class Minifooter extends Component {
     render() {
         return (
-            <Footer size="mini">
-    <FooterSection type="right" title="">
+            <Footer className="footer" size="mini">
+    <FooterSection type="right" title="footer">
         <FooterLinkList>
             <a href="/resume">Resume</a>
             <a href="/projects">Projects</a>
