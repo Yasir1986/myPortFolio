@@ -31,7 +31,7 @@ class Resume extends Component {
                     <h5>Email</h5>
                     <p>yasir.akbar86@hotmail.com</p>
                     <h5>WebSite</h5>
-                    <p>www.still-to-come.com</p>
+                    <p><a href="https://myportfolio06.herokuapp.com/" alt="portfolio" style={{color: 'black'}}>https://myportfolio06.herokuapp.com/</a></p>
 
                     </Cell>
                     <Cell className="resume-right-col" col={8}>
