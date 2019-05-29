@@ -71,6 +71,13 @@ class Resume extends Component {
                     <h2>Experience</h2>
 
                     <Experience 
+                    startYear={2019}
+                    endYear={2019}
+                    jobName="Software Developer at Vainu.io"
+                    jobDescription="Building a spin-off of their real product with stripe integration using React, ES6, styled-components and material-ui"
+                    />
+
+                    <Experience 
                     startYear={2018}
                     endYear={2018}
                     jobName="Front End Developer at Integrify"
