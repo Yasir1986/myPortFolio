@@ -19,7 +19,7 @@ class Landing extends Component {
 
               <hr />
 
-              <p>React/Redux | HTML/CSS | JavaScript | Nodejs/Express</p>
+              <p>HTML/CSS | JavaScript | React/Redux | Nodejs/Express</p>
 
               <div className="social-links">
                 {/*Github*/}
@@ -28,7 +28,7 @@ class Landing extends Component {
                   rel="noopener noreferrer"
                   target="blank"
                 >
-                  <i class="fa fa-github-square" aria-hidden="true" />
+                  <i className="fa fa-github-square" aria-hidden="true" />
                 </a>
 
                 {/*Linkedin*/}
@@ -37,7 +37,7 @@ class Landing extends Component {
                   rel="noopener noreferrer"
                   target="blank"
                 >
-                  <i class="fa fa-linkedin-square" aria-hidden="true" />
+                  <i className="fa fa-linkedin-square" aria-hidden="true" />
                 </a>
 
                 {/*Facebook*/}
@@ -46,7 +46,7 @@ class Landing extends Component {
                   rel="noopener noreferrer"
                   target="blank"
                 >
-                  <i class="fa fa-facebook-square" aria-hidden="true" />
+                  <i className="fa fa-facebook-square" aria-hidden="true" />
                 </a>
               </div>
             </div>

@@ -46,9 +46,15 @@
 .banner-text {
   background-color: black;
   opacity: 0.8;
-  width: 60%;
+  width: 55%;
   margin: auto;
   border-radius: 20px;
+}
+
+@media  (max-width: 600px) {
+  .banner-text {
+    width: auto;
+  }
 }
 
 .banner-text h1 {
@@ -72,9 +78,7 @@
 }
 
 .social-links {
-  display: flex;
-  justify-content: space-between;
-  width: 50%;
+  width: auto;
   margin: auto;
 }
 

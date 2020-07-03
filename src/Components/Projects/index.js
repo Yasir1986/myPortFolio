@@ -102,7 +102,7 @@ class Projects extends Component {
             <Button>
               {" "}
               <a
-                href="https://github.com/Yasir1986/CryptocurrenyCoinsApp"
+                href="https://github.com/Yasir1986/Chat-App"
                 rel="noopener noreferrer"
                 target="blank"
               >
@@ -166,7 +166,7 @@ class Projects extends Component {
             <Button>
               {" "}
               <a
-                href="https://github.com/Yasir1986/MERN-Photo-Gallery"
+                href="https://github.com/Yasir1986/Task-Manager"
                 rel="noopener noreferrer"
                 target="blank"
               >
