@@ -8,7 +8,7 @@ Follow the steps to run this myPortFolio
 
 Enjoy
 
-OR
+Or
 
 For live deploy:
 
