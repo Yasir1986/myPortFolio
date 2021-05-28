@@ -33,7 +33,8 @@ class Resume extends Component {
               Yasir is especially interested in building scalable websites and
               apps on different platforms utilizing microservice architecture.
               He excels in JavaScript, WordPress and Unit Testing especially
-              React/Redux, Jest, HTML5/CSS3 and Node/Express/MongoDB, and Python.
+              React/Redux, Jest, HTML5/CSS3 and Node/Express/MongoDB, and
+              Python.
             </p>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <h5>Address</h5>
@@ -98,10 +99,24 @@ class Resume extends Component {
             <h2>Experience</h2>
 
             <Experience
+              startYear={2021}
+              endYear={2021}
+              jobName="Front End React Developer at Sharp Gaming"
+              jobDescription="Scrum/Kanban and following best practices to build and modify state of art Single page application/online games SPA and CMS for one of the biggest and renown brands of UK in gaming industry."
+            />
+
+            <Experience
+              startYear={2020}
+              endYear={2020}
+              jobName="Front End Developer at Bloc Digital"
+              jobDescription="3 months contract for developing and testing local city brand website and mobile app for android"
+            />
+
+            <Experience
               startYear={2019}
-              endYear="Present"
+              endYear={2020}
               jobName="Full Stack Developer at Cognizant"
-              jobDescription="Front End, Back End and Agile software developemnt using React and Node.js for different web-based applications websites for famous brands/clients"
+              jobDescription="Front End, Back End and Agile software developemnt using React and Node.js for different web-based applications websites for famous brands/clients such as Boots"
             />
 
             <Experience
