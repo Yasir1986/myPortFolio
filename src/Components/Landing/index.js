@@ -19,7 +19,9 @@ class Landing extends Component {
 
               <hr />
 
-              <p>HTML/CSS | JavaScript | React/Redux | Nodejs/Express</p>
+              <p>
+                React/Redux | JavaScript | HTML/CSS | Nodejs/Express | Git | Npm | Webpack 
+              </p>
 
               <div className="social-links">
                 {/*Github*/}

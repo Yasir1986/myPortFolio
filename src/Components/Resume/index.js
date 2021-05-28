@@ -23,18 +23,17 @@ class Resume extends Component {
             <h4 style={{ color: "grey" }}>Full Stack Developer</h4>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <p>
-              Yasir is a hard-working Full Stack developer. With around 4 year's
+              Yasir is a hard-working Full Stack developer. With around 3+ year's
               experience in Front End Development and moderate knowledge about
               Back End Development as well. He has been active in agile software
-              development for different web-based applications, websites, and
-              famous brands.
+              development / Scrum and Kanban, for different single page applications, websites, CMS
+              and projects for many international/UK famous brands.
             </p>
             <p>
               Yasir is especially interested in building scalable websites and
               apps on different platforms utilizing microservice architecture.
-              He excels in JavaScript, WordPress and Unit Testing especially
-              React/Redux, Jest, HTML5/CSS3 and Node/Express/MongoDB, and
-              Python.
+              He excels in JavaScript, React/Redux WordPress and Unit Testing especially
+              Jest, HTML5/CSS3 and Node/Express/MongoDB, Python, Git, Npm and webpack.
             </p>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <h5>Address</h5>
@@ -100,7 +99,7 @@ class Resume extends Component {
 
             <Experience
               startYear={2021}
-              endYear={2021}
+              endYear={"Present"}
               jobName="Front End React Developer at Sharp Gaming"
               jobDescription="Scrum/Kanban and following best practices to build and modify state of art Single page application/online games SPA and CMS for one of the biggest and renown brands of UK in gaming industry."
             />
@@ -153,17 +152,19 @@ class Resume extends Component {
 
             <Skills skill="HTML/CSS" progress={95} />
 
+            <Skills skill="Material-UI/Bootstrap" progress={90} />
+
             <Skills skill="JavaScript/ES6" progress={85} />
 
-            <Skills skill="React/Redux" progress={80} />
+            <Skills skill="React/Redux" progress={85} />
 
-            <Skills skill="Material-ui/Bootstrap" progress={90} />
+            <Skills skill="Nodejs/Express" progress={65} />
 
-            <Skills skill="Nodejs/Express" progress={75} />
+            <Skills skill="Python" progress={30} />
 
-            <Skills skill="Python" progress={35} />
+            <Skills skill="Unit Testing(Jest)" progress={75} />
 
-            <Skills skill="Unit Testing(Jest)" progress={76} />
+            <Skills skill="Git / Npm / Webpack / Gulp" progress={90} />
           </Cell>
         </Grid>
       </div>
