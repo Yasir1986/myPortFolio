@@ -48,7 +48,13 @@ class Contact extends Component {
                       style={{ fontSize: "20px", fontFamily: "Anton" }}
                     >
                       <i className="fa fa-envelope" aria-hidden="true" />
+                      <a
+                        style={{ color: "black" }}
+                        href="https://github.com/Yasir1986"
+                        target="-blank"
+                      >
                       yasir.akbar86@hotmail.com
+                      </a>
                     </ListItemContent>
                   </ListItem>
 
