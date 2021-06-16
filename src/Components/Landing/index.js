@@ -16,11 +16,10 @@ class Landing extends Component {
 
             <div className="banner-text">
               <h1>Full Stack Developer</h1>
-
               <hr />
 
               <p>
-                React/Redux | JavaScript | HTML/CSS | Nodejs/Express | Git | Npm | Webpack 
+                JavaScript | React/Redux | HTML/CSS | Nodejs/Express | Git | Npm | Webpack
               </p>
 
               <div className="social-links">

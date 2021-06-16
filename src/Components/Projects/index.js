@@ -38,7 +38,7 @@ class Projects extends Component {
             <Button>
               {" "}
               <a
-                href="https://github.com/Yasir1986"
+                href="https://github.com/Yasir1986/Modern-Landing-Page"
                 rel="noopener noreferrer"
                 target="blank"
               >

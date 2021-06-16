@@ -101,7 +101,7 @@ class Resume extends Component {
               startYear={2021}
               endYear={"Present"}
               jobName="Front End React Developer at Sharp Gaming"
-              jobDescription="Scrum/Kanban and following best practices to build and modify state of art Single page application/online games SPA and CMS for one of the biggest and renown brands of UK in gaming industry."
+              jobDescription="Scrum/Kanban and following best practices to build and modify state of art Single page application/online games SPA and CMS for one of the biggest and reknown online brands of UK in gaming industry."
             />
 
             <Experience
