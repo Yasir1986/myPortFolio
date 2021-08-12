@@ -20,20 +20,22 @@ class Resume extends Component {
             </div>
 
             <h2 style={{ paddingTop: "2rem" }}>Yasir Akbar</h2>
-            <h4 style={{ color: "grey" }}>Full Stack Developer</h4>
+            <h4 style={{ color: "grey" }}>Front End Developer</h4>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <p>
-              Yasir is a hard-working Full Stack developer. With around 3+ year's
+              Yasir is a hard-working Front End developer. With around 3+ year's
               experience in Front End Development and moderate knowledge about
               Back End Development as well. He has been active in agile software
-              development / Scrum and Kanban, for different single page applications, websites, CMS
-              and projects for many international/UK famous brands.
+              development / Scrum and Kanban, for different single page
+              applications, websites, CMS and projects for many international/UK
+              famous brands.
             </p>
             <p>
               Yasir is especially interested in building scalable websites and
               apps on different platforms utilizing microservice architecture.
-              He excels in JavaScript, React/Redux WordPress and Unit Testing especially
-              Jest, HTML5/CSS3 and Node/Express/MongoDB, Python, Git, Npm and webpack.
+              He excels in JavaScript, React/Redux, TypeScript, WordPress and
+              Unit Testing especially Jest, HTML5/CSS3 and Node/Express/MongoDB,
+              Python, Git, Npm and webpack.
             </p>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <h5>Address</h5>

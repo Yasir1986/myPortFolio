@@ -5,7 +5,7 @@ import "../Landing/style.css";
 class Landing extends Component {
   render() {
     return (
-      <div style={{ width: "100%", margin: "auto" }}>
+      <div style={{ width: "100%", margin: "auto", height: "100%" }}>
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
@@ -15,11 +15,12 @@ class Landing extends Component {
             />
 
             <div className="banner-text">
-              <h1>Full Stack Developer</h1>
+              <h1>Front End Developer</h1>
               <hr />
 
               <p>
-                JavaScript | React/Redux | TypeScript | HTML/CSS | Nodejs/Express | Git | Npm | Webpack
+                JavaScript | React/Redux | TypeScript | HTML/CSS |
+                Nodejs/Express | Git | Npm | Webpack
               </p>
 
               <div className="social-links">

@@ -16,9 +16,9 @@ class Contact extends Component {
                 style={{ height: "250px" }}
               />
               <p>
-                I am Full Stack Developer with around 3+ year's expereince. I love
-                to develop and maintain websites and single page applications.
-                For any kind of inquiry, conatct me :)
+                I am Front End Developer with around 3+ year's expereince. I
+                love to develop and maintain websites and single page
+                applications. For any kind of inquiry, conatct me :)
               </p>
             </Cell>
 
@@ -53,7 +53,7 @@ class Contact extends Component {
                         href="https://github.com/Yasir1986"
                         target="-blank"
                       >
-                      yasir.akbar86@hotmail.com
+                        yasir.akbar86@hotmail.com
                       </a>
                     </ListItemContent>
                   </ListItem>
