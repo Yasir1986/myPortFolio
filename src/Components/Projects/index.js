@@ -12,6 +12,7 @@ import {
   CardMenu,
   IconButton,
 } from "react-mdl";
+import "../Projects/style.css";
 
 class Projects extends Component {
   constructor(props) {
@@ -22,7 +23,8 @@ class Projects extends Component {
   toggleCategories() {
     if (this.state.activeTab === 0) {
       return (
-        <Card shadow={0} style={{ width: "512px", margin: "auto" }}>
+        <Card className="card" shadow={0} style={{ width: "450px", margin: "auto" }}
+        >
           <CardTitle
             style={{
               color: "#000000",
@@ -33,7 +35,7 @@ class Projects extends Component {
           >
             HTML/CSS
           </CardTitle>
-          <CardText>HTML/CSS Project</CardText>
+          <CardText>HTML/CSS Projects</CardText>
           <CardActions border>
             <Button>
               {" "}
@@ -54,7 +56,7 @@ class Projects extends Component {
       );
     } else if (this.state.activeTab === 1) {
       return (
-        <Card shadow={0} style={{ width: "512px", margin: "auto" }}>
+        <Card shadow={0} style={{ width: "450px", margin: "auto" }}>
           <CardTitle
             style={{
               color: "#000000",
@@ -65,7 +67,7 @@ class Projects extends Component {
           >
             JavaScript
           </CardTitle>
-          <CardText>JavaScript Project</CardText>
+          <CardText>JavaScript Projects</CardText>
           <CardActions border>
             <Button>
               {" "}
@@ -86,7 +88,7 @@ class Projects extends Component {
       );
     } else if (this.state.activeTab === 2) {
       return (
-        <Card shadow={0} style={{ width: "512px", margin: "auto" }}>
+        <Card shadow={0} style={{ width: "450px", margin: "auto" }}>
           <CardTitle
             style={{
               color: "#000000",
@@ -97,7 +99,7 @@ class Projects extends Component {
           >
             REACT
           </CardTitle>
-          <CardText>React Project</CardText>
+          <CardText>React Projects</CardText>
           <CardActions border>
             <Button>
               {" "}
@@ -118,7 +120,7 @@ class Projects extends Component {
       );
     } else if (this.state.activeTab === 3) {
       return (
-        <Card shadow={0} style={{ width: "512px", margin: "auto" }}>
+        <Card shadow={0} style={{ width: "450px", margin: "auto" }}>
           <CardTitle
             style={{
               color: "#000000",
@@ -129,7 +131,7 @@ class Projects extends Component {
           >
             REACT/REDUX
           </CardTitle>
-          <CardText>React/Redux Project</CardText>
+          <CardText>React/Redux Projects</CardText>
           <CardActions border>
             <Button>
               {" "}
@@ -150,7 +152,7 @@ class Projects extends Component {
       );
     } else if (this.state.activeTab === 4) {
       return (
-        <Card shadow={0} style={{ width: "512px", margin: "auto" }}>
+        <Card shadow={0} style={{ width: "450px", margin: "auto" }}>
           <CardTitle
             style={{
               color: "#000000",
@@ -161,7 +163,7 @@ class Projects extends Component {
           >
             MongoDB
           </CardTitle>
-          <CardText>MongoDB Project</CardText>
+          <CardText>MongoDB Projects</CardText>
           <CardActions border>
             <Button>
               {" "}
