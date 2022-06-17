@@ -100,8 +100,15 @@ class Resume extends Component {
             <h2>Experience</h2>
 
             <Experience
-              startYear={2021}
+              startYear={2022}
               endYear={"Present"}
+              jobName="React Developer at Nbrown"
+              jobDescription="White Labelling/Monorepo for Nbrown upcoming online shopping brand Simply Be, Following best practices with agile methodologies, using latest Tech to be ahead of the market"
+            />
+
+            <Experience
+              startYear={2021}
+              endYear={2021}
               jobName="Front End React Developer at Sharp Gaming"
               jobDescription="Scrum/Kanban and following best practices to build and modify state of art Single page application/online games SPA and CMS for one of the biggest and reknown online brands of UK in gaming industry."
             />
