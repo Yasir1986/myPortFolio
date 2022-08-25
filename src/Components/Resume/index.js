@@ -23,7 +23,7 @@ class Resume extends Component {
             <h4 style={{ color: "grey" }}>Front End Developer</h4>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <p>
-              Yasir is a hard-working Front End developer. With around 3+ year's
+              Yasir is a hard-working Front End developer. With around 4+ year's
               experience in Front End Development and moderate knowledge about
               Back End Development as well. He has been active in agile software
               development / Scrum and Kanban, for different single page
