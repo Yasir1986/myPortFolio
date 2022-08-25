@@ -16,7 +16,7 @@ class Contact extends Component {
                 style={{ height: "250px" }}
               />
               <p>
-                I am Front End Developer with around 3+ year's expereince. I
+                I am Front End Developer with around 4+ year's expereince. I
                 love to develop and maintain websites and single page
                 applications. For any kind of inquiry, conatct me :)
               </p>
