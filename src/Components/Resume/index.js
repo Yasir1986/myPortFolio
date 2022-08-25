@@ -167,13 +167,15 @@ class Resume extends Component {
 
             <Skills skill="React/Redux" progress={85} />
 
+            <Skills skill="Monorepo/Nx" progress={75} />
+
             <Skills skill="Nodejs/Express" progress={65} />
 
-            <Skills skill="Python" progress={30} />
+            <Skills skill="Python" progress={32} />
 
-            <Skills skill="Unit Testing(Jest)" progress={75} />
+            <Skills skill="Unit Testing(Jest)" progress={80} />
 
-            <Skills skill="Git / Npm / Webpack / Gulp" progress={90} />
+            <Skills skill="Git / Npm / Webpack / Gulp" progress={92} />
           </Cell>
         </Grid>
       </div>
