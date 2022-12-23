@@ -12,4 +12,4 @@ Or
 
 For live deploy:
 
-https://myportfolio06.herokuapp.com/
+https://inquisitive-bubblegum-e18eba.netlify.app/
