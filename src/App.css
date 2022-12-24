@@ -3,6 +3,10 @@ a.main-link {
   text-decoration: none;
 }
 
+mdl-layout_content {
+  overflow: hidden;
+}
+
 :root {
   --mainColor: red;
 }

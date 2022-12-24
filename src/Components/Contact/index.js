@@ -6,9 +6,8 @@ import "../Contact/style.css";
 class Contact extends Component {
   render() {
     return (
-      <div>
         <div className="contact-body">
-          <Grid className="contact-grid">
+          <Grid className="contact-grid" >
             <Cell col={6}>
               <h2>Yasir Akbar</h2>
               <img
@@ -78,7 +77,7 @@ class Contact extends Component {
               </div>
             </Cell>
           </Grid>
-        </div>
+       
         <MiniFooter />
       </div>
     );
