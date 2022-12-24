@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 import "./App.css";
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
-import Main from "./Components/main";
+import Main from './Components/main';
 import { Link } from "react-router-dom";
 
 class App extends Component {
   render() {
+    const myPortFolio = "MyportFolio";
     return (
       <div className="demo-big-content">
         <Layout>
@@ -13,7 +14,7 @@ class App extends Component {
             className="header-color"
             title={
               <Link to="/" className="main-link">
-                MyPortFolio
+                {myPortFolio}
               </Link>
             }
             scroll

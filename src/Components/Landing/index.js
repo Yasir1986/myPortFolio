@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
+import MiniFooter from '../Footer/footer';
 import "../Landing/style.css";
 
 class Landing extends Component {
@@ -54,6 +55,7 @@ class Landing extends Component {
             </div>
           </Cell>
         </Grid>
+        <MiniFooter />
       </div>
     );
   }

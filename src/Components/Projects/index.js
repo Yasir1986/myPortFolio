@@ -9,8 +9,7 @@ import {
   CardText,
   CardActions,
   Button,
-  CardMenu,
-  IconButton,
+  CardMenu
 } from "react-mdl";
 import "../Projects/style.css";
 
@@ -53,7 +52,6 @@ class Projects extends Component {
             </Button>
           </CardActions>
           <CardMenu style={{ color: "#fff" }}>
-            <IconButton name="share" />
           </CardMenu>
         </Card>
       );
@@ -85,7 +83,6 @@ class Projects extends Component {
             </Button>
           </CardActions>
           <CardMenu style={{ color: "#fff" }}>
-            <IconButton name="share" />
           </CardMenu>
         </Card>
       );
@@ -117,7 +114,6 @@ class Projects extends Component {
             </Button>
           </CardActions>
           <CardMenu style={{ color: "#fff" }}>
-            <IconButton name="share" />
           </CardMenu>
         </Card>
       );
@@ -149,7 +145,6 @@ class Projects extends Component {
             </Button>
           </CardActions>
           <CardMenu style={{ color: "#fff" }}>
-            <IconButton name="share" />
           </CardMenu>
         </Card>
       );
@@ -181,7 +176,6 @@ class Projects extends Component {
             </Button>
           </CardActions>
           <CardMenu style={{ color: "#fff" }}>
-            <IconButton name="share" />
           </CardMenu>
         </Card>
       );
