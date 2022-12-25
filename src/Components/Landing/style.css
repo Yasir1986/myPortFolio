@@ -80,3 +80,28 @@
   padding: 8px;
 }
 /* Landing Page Css */
+
+@media screen and (max-width : 480px) {
+  .small_left {
+      width:50%;     
+      float:left;
+  }
+  .small_right {
+      width:50%;     
+      float:right;
+  }     
+
+}
+
+@media screen and (max-width : 640px) {  
+
+  .small_left {
+      width:50%;     
+      float:left;
+  }
+  .small_right {
+      width:50%;     
+      float:right;
+  }     
+
+}

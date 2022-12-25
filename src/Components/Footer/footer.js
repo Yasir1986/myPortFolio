@@ -1,10 +1,13 @@
 import React, { Component } from "react";
 import { Footer, FooterSection, FooterLinkList } from "react-mdl";
+import "../Footer/style.css";
+
 
 class Minifooter extends Component {
   render() {
     return (
-      <Footer className="footer" size="mini" style={{ padding: "13px", width: "auto"}}>
+      <div className="minifooter">
+      <Footer className="footer" size="mini" style={{ padding: "13px"}}>
         <FooterSection type="right" title="footer">
           <FooterLinkList>
             <a href="https://github.com/Yasir1986"  target="_blank" rel="noopener noreferrer">Github</a>
@@ -14,6 +17,7 @@ class Minifooter extends Component {
         </FooterSection>
         <p>© 2023 Yasir Akbar All Rights Reserved</p>
       </Footer>
+      </div>
     );
   }
 }
