@@ -3,7 +3,7 @@ import { Grid, Cell } from "react-mdl";
 import Education from "./education";
 import Experience from "./experience";
 import Skills from "./skills";
-import MiniFooter from '../Footer/footer';
+import MiniFooter from "../Footer/footer";
 import "../Resume/style.css";
 
 class Resume extends Component {
@@ -177,7 +177,6 @@ class Resume extends Component {
             <Skills skill="Git / Npm / Webpack / Gulp" progress={92} />
 
             <Skills skill="Python" progress={40} />
-            
           </Cell>
         </Grid>
         <MiniFooter />

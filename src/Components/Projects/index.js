@@ -9,7 +9,7 @@ import {
   CardText,
   CardActions,
   Button,
-  CardMenu
+  CardMenu,
 } from "react-mdl";
 import "../Projects/style.css";
 
@@ -51,8 +51,7 @@ class Projects extends Component {
               </a>
             </Button>
           </CardActions>
-          <CardMenu style={{ color: "#fff" }}>
-          </CardMenu>
+          <CardMenu style={{ color: "#fff" }} />
         </Card>
       );
     } else if (this.state.activeTab === 1) {
@@ -82,8 +81,7 @@ class Projects extends Component {
               </a>
             </Button>
           </CardActions>
-          <CardMenu style={{ color: "#fff" }}>
-          </CardMenu>
+          <CardMenu style={{ color: "#fff" }} />
         </Card>
       );
     } else if (this.state.activeTab === 2) {
@@ -113,8 +111,7 @@ class Projects extends Component {
               </a>
             </Button>
           </CardActions>
-          <CardMenu style={{ color: "#fff" }}>
-          </CardMenu>
+          <CardMenu style={{ color: "#fff" }} />
         </Card>
       );
     } else if (this.state.activeTab === 3) {
@@ -144,8 +141,7 @@ class Projects extends Component {
               </a>
             </Button>
           </CardActions>
-          <CardMenu style={{ color: "#fff" }}>
-          </CardMenu>
+          <CardMenu style={{ color: "#fff" }} />
         </Card>
       );
     } else if (this.state.activeTab === 4) {
@@ -175,8 +171,7 @@ class Projects extends Component {
               </a>
             </Button>
           </CardActions>
-          <CardMenu style={{ color: "#fff" }}>
-          </CardMenu>
+          <CardMenu style={{ color: "#fff" }} />
         </Card>
       );
     }

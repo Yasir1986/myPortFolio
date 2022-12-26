@@ -81,9 +81,8 @@ class Contact extends Component {
           </Grid>
         </div>
         <MiniFooter />
-        </div>
+      </div>
     );
-  
   }
 }
 
