@@ -160,23 +160,25 @@ class Resume extends Component {
 
             <h2>Skills</h2>
 
-            <Skills skill="HTML/CSS" progress={95} />
+            <div className="skills-wrapper">
+              <Skills skill="HTML/CSS" progress={95} />
 
-            <Skills skill="Material-UI/Bootstrap" progress={90} />
+              <Skills skill="Material-UI/Bootstrap" progress={90} />
 
-            <Skills skill="JavaScript/ES6" progress={85} />
+              <Skills skill="JavaScript/ES6" progress={85} />
 
-            <Skills skill="React/Redux" progress={85} />
+              <Skills skill="React/Redux" progress={85} />
 
-            <Skills skill="Monorepo/Nx" progress={75} />
+              <Skills skill="Monorepo/Nx" progress={75} />
 
-            <Skills skill="Nodejs/Express" progress={65} />
+              <Skills skill="Nodejs/Express" progress={65} />
 
-            <Skills skill="Unit Testing(Jest)" progress={80} />
+              <Skills skill="Unit Testing(Jest)" progress={80} />
 
-            <Skills skill="Git / Npm / Webpack / Gulp" progress={92} />
+              <Skills skill="Git / Npm / Webpack / Gulp" progress={92} />
 
-            <Skills skill="Python" progress={40} />
+              <Skills skill="Python" progress={40} />
+            </div>
           </Cell>
         </Grid>
         <MiniFooter />

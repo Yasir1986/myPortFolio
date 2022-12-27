@@ -11,6 +11,7 @@ import {
   Button,
   CardMenu,
 } from "react-mdl";
+import MiniFooter from "../Footer/footer";
 import "../Projects/style.css";
 
 class Projects extends Component {
@@ -199,6 +200,7 @@ class Projects extends Component {
             </Cell>
           </Grid>
         </section>
+        <MiniFooter />
       </div>
     );
   }

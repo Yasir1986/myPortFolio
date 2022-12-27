@@ -6,9 +6,9 @@ class Minifooter extends Component {
   render() {
     return (
       <div className="minifooter">
-        <Footer className="footer" size="mini" style={{ padding: "13px" }}>
+        <Footer className="footer" size="mini" style={{ padding: "5px" }}>
           <FooterSection type="right" title="footer">
-            <FooterLinkList>
+            <FooterLinkList style={{ padding: "5px" }}>
               <a
                 href="https://github.com/Yasir1986"
                 target="_blank"
@@ -32,7 +32,7 @@ class Minifooter extends Component {
               </a>
             </FooterLinkList>
           </FooterSection>
-          <p>© 2023 Yasir Akbar All Rights Reserved</p>
+          <p className="footerText">© 2023 Yasir Akbar All Rights Reserved</p>
         </Footer>
       </div>
     );
