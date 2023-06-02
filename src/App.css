@@ -3,10 +3,16 @@ a.main-link {
   text-decoration: none;
 }
 
+mdl-layout_content {
+  overflow: hidden;
+}
+
+body {
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+}
 :root {
   --mainColor: red;
 }
-
 a {
   color: var(--mainColor);
   text-decoration: none;

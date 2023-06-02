@@ -3,6 +3,7 @@ import { Grid, Cell } from "react-mdl";
 import Education from "./education";
 import Experience from "./experience";
 import Skills from "./skills";
+import MiniFooter from "../Footer/footer";
 import "../Resume/style.css";
 
 class Resume extends Component {
@@ -23,23 +24,23 @@ class Resume extends Component {
             <h4 style={{ color: "grey" }}>Front End Developer</h4>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <p>
-              Yasir is a hard-working Front End developer. With around 4+ year's
+              Yasir is a hard-working Front End developer with 4+ year's
               experience in Front End Development and moderate knowledge about
               Back End Development as well. He has been active in agile software
-              development / Scrum and Kanban, for different single page
+              development/Scrum and Kanban, for different single page
               applications, websites, CMS and projects for many international/UK
-              famous brands.
+              e-commerce online famous brands.
             </p>
             <p>
               Yasir is especially interested in building scalable websites and
               apps on different platforms utilizing microservice architecture.
               He excels in JavaScript, React/Redux, TypeScript, WordPress and
               Unit Testing especially Jest, HTML5/CSS3 and Node/Express/MongoDB,
-              Python, Git, Npm and webpack.
+              Python, Git, Npm, Nx and webpack.
             </p>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <h5>Address</h5>
-            <p>Finland/UK</p>
+            <p>UK/Finland</p>
             <h5>Linkedin</h5>
             <p>https://www.linkedin.com/in/yasir-akbar-2b534513b/</p>
             <h5>Github</h5>
@@ -49,11 +50,11 @@ class Resume extends Component {
             <h5>WebSite</h5>
             <p>
               <a
-                href="https://myportfolio06.herokuapp.com/"
+                href="https://inquisitive-bubblegum-e18eba.netlify.app/"
                 alt="portfolio"
                 style={{ color: "black" }}
               >
-                https://myportfolio06.herokuapp.com/
+                https://inquisitive-bubblegum-e18eba.netlify.app/
               </a>
             </p>
           </Cell>
@@ -103,7 +104,7 @@ class Resume extends Component {
               startYear={2022}
               endYear={"Present"}
               jobName="React Developer at Nbrown"
-              jobDescription="White Labelling/Monorepo for Nbrown upcoming online shopping brand Simply Be, Following best practices with agile methodologies, using latest Tech to be ahead of the market"
+              jobDescription="White Labelling and implementing Monorepo for Nbrown upcoming online e-commerce shopping brand SimplyBe and Jacamo. Following best practices with agile methodologies, using latest Tech to be ahead of the market"
             />
 
             <Experience
@@ -117,7 +118,7 @@ class Resume extends Component {
               startYear={2020}
               endYear={2020}
               jobName="Front End Developer at Bloc Digital"
-              jobDescription="3 months contract for developing and testing local city brand website and mobile app for android"
+              jobDescription="3 months contract for developing and testing local city railway website and mobile app for android"
             />
 
             <Experience
@@ -159,25 +160,28 @@ class Resume extends Component {
 
             <h2>Skills</h2>
 
-            <Skills skill="HTML/CSS" progress={95} />
+            <div className="skills-wrapper">
+              <Skills skill="HTML/CSS" progress={95} />
 
-            <Skills skill="Material-UI/Bootstrap" progress={90} />
+              <Skills skill="Material-UI/Bootstrap" progress={90} />
 
-            <Skills skill="JavaScript/ES6" progress={85} />
+              <Skills skill="JavaScript/ES6" progress={85} />
 
-            <Skills skill="React/Redux" progress={85} />
+              <Skills skill="React/Redux" progress={85} />
 
-            <Skills skill="Monorepo/Nx" progress={75} />
+              <Skills skill="Monorepo/Nx" progress={75} />
 
-            <Skills skill="Nodejs/Express" progress={65} />
+              <Skills skill="Nodejs/Express" progress={65} />
 
-            <Skills skill="Python" progress={32} />
+              <Skills skill="Unit Testing(Jest)" progress={80} />
 
-            <Skills skill="Unit Testing(Jest)" progress={80} />
+              <Skills skill="Git / Npm / Webpack / Gulp" progress={92} />
 
-            <Skills skill="Git / Npm / Webpack / Gulp" progress={92} />
+              <Skills skill="Python" progress={40} />
+            </div>
           </Cell>
         </Grid>
+        <MiniFooter />
       </div>
     );
   }

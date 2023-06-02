@@ -1,0 +1,11 @@
+.minifooter {
+  background: #202323;
+  min-width: 390px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.footerText {
+  margin: 15px;
+}

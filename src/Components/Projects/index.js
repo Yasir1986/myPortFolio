@@ -10,8 +10,8 @@ import {
   CardActions,
   Button,
   CardMenu,
-  IconButton,
 } from "react-mdl";
+import MiniFooter from "../Footer/footer";
 import "../Projects/style.css";
 
 class Projects extends Component {
@@ -52,9 +52,7 @@ class Projects extends Component {
               </a>
             </Button>
           </CardActions>
-          <CardMenu style={{ color: "#fff" }}>
-            <IconButton name="share" />
-          </CardMenu>
+          <CardMenu style={{ color: "#fff" }} />
         </Card>
       );
     } else if (this.state.activeTab === 1) {
@@ -84,9 +82,7 @@ class Projects extends Component {
               </a>
             </Button>
           </CardActions>
-          <CardMenu style={{ color: "#fff" }}>
-            <IconButton name="share" />
-          </CardMenu>
+          <CardMenu style={{ color: "#fff" }} />
         </Card>
       );
     } else if (this.state.activeTab === 2) {
@@ -116,9 +112,7 @@ class Projects extends Component {
               </a>
             </Button>
           </CardActions>
-          <CardMenu style={{ color: "#fff" }}>
-            <IconButton name="share" />
-          </CardMenu>
+          <CardMenu style={{ color: "#fff" }} />
         </Card>
       );
     } else if (this.state.activeTab === 3) {
@@ -148,9 +142,7 @@ class Projects extends Component {
               </a>
             </Button>
           </CardActions>
-          <CardMenu style={{ color: "#fff" }}>
-            <IconButton name="share" />
-          </CardMenu>
+          <CardMenu style={{ color: "#fff" }} />
         </Card>
       );
     } else if (this.state.activeTab === 4) {
@@ -180,9 +172,7 @@ class Projects extends Component {
               </a>
             </Button>
           </CardActions>
-          <CardMenu style={{ color: "#fff" }}>
-            <IconButton name="share" />
-          </CardMenu>
+          <CardMenu style={{ color: "#fff" }} />
         </Card>
       );
     }
@@ -210,6 +200,7 @@ class Projects extends Component {
             </Cell>
           </Grid>
         </section>
+        <MiniFooter />
       </div>
     );
   }

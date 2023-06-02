@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
+import MiniFooter from "../Footer/footer";
 import "../Landing/style.css";
 
 class Landing extends Component {
@@ -51,6 +52,9 @@ class Landing extends Component {
                   <i className="fa fa-facebook-square" aria-hidden="true" />
                 </a>
               </div>
+            </div>
+            <div className="minifooter-wrapper">
+              <MiniFooter />
             </div>
           </Cell>
         </Grid>
