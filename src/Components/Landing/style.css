@@ -53,13 +53,6 @@
   font-size: 66px;
   font-weight: bold;
   color: white;
-
-  @media screen and (max-width: 320px) {
-    .banner-text h1  {
-      font-size: 40px;
-      color: red;
-    }
-  }
 }
 .banner-text hr {
   border-top: 5px dotted white;
@@ -87,5 +80,12 @@
 @media (max-width: 600px) {
   .banner-text {
     width: auto;
+  }
+}
+@media (max-width: 320px) {
+  .banner-text h1  {
+    font-size: 40px;
+    width: auto;
+
   }
 }
