@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
-import MiniFooter from "../Footer/footer";
 import "../Landing/style.css";
 
 class Landing extends Component {
@@ -18,10 +17,9 @@ class Landing extends Component {
             <div className="banner-text">
               <h1>Front End Developer</h1>
               <hr />
-
               <p>
-                JavaScript | React/Redux | TypeScript | HTML/CSS |
-                Nodejs/Express | Git | Npm | Webpack
+              TypeScript | JavaScript | React/Redux | Next.js | Html/Css |
+              Nodejs/Express | Git | Npm | Webpack
               </p>
 
               <div className="social-links">
@@ -54,7 +52,6 @@ class Landing extends Component {
               </div>
             </div>
             <div className="minifooter-wrapper">
-              <MiniFooter />
             </div>
           </Cell>
         </Grid>

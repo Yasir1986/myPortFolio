@@ -3,7 +3,6 @@ import { Grid, Cell } from "react-mdl";
 import Education from "./education";
 import Experience from "./experience";
 import Skills from "./skills";
-import MiniFooter from "../Footer/footer";
 import "../Resume/style.css";
 
 class Resume extends Component {

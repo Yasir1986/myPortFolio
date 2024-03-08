@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 class App extends Component {
   render() {
-    const myPortFolio = "MyportFolio";
+    const myPortFolio = "";
     return (
       <div className="demo-big-content">
         <Layout>
@@ -20,14 +20,15 @@ class App extends Component {
             scroll
           >
             <Navigation>
-              <Link to="/" />
+              <Link to="/">Home</Link>
               <Link to="/resume">Resume</Link>
               <Link to="/projects">Projects</Link>
               <Link to="/contact">Contact</Link>
             </Navigation>
           </Header>
-          <Drawer title="MyPortFolio">
+          <Drawer title="">
             <Navigation>
+              <Link to="/">Home</Link>
               <Link to="/resume">Resume</Link>
               <Link to="/projects">Projects</Link>
               <Link to="/contact">Contact</Link>

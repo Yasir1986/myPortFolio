@@ -53,6 +53,13 @@
   font-size: 66px;
   font-weight: bold;
   color: white;
+
+  @media screen and (max-width: 320px) {
+    .banner-text h1  {
+      font-size: 40px;
+      color: red;
+    }
+  }
 }
 .banner-text hr {
   border-top: 5px dotted white;
@@ -72,6 +79,7 @@
 .social-links i {
   color: white;
   font-size: 5em;
+  padding: 10px;
 }
 .minifooter-wrapper {
   margin-left: -16px;
