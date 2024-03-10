@@ -1,5 +1,26 @@
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .card {
     width: auto;
+    background: red;
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 420px) {
+  .category-tabs {
+    width: auto;
+    background: yellow;
+  }
+}
+
+@media (max-width: 600px) {
+  .mdl-tabs__tab {
+    font-size: 9px !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .mdl-tabs__tab {
+    font-size: 9px !important;
   }
 }

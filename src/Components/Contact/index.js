@@ -16,12 +16,7 @@ class Contact extends Component {
                   alt="avatar"
                   style={{ height: "250px" }}
                 />
-                <p>
-                  I am Front End Developer with 4+ years of expereince in UK
-                  biggest online e-commerce websites. I love to develop and
-                  maintain websites and single page applications. For any kind
-                  of inquiry, conatct me :)
-                </p>
+                <p>For any kind of inquiry, conatct me :)</p>
               </div>
             </Cell>
             <Cell col={6}>

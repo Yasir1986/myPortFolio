@@ -23,17 +23,17 @@ class Resume extends Component {
           <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
           <p>
             Yasir is a hard-working Front End developer with 4+ year's
-            experience in Front End Development and moderate knowledge about
-            Back End Development as well. He has been active in agile software
+            experience in Front End Development and moderate knowledge of Back
+            End Development as well. He has been active in agile software
             development/Scrum and Kanban, for different single page
-            applications, websites, CMS and projects for many international/UK
-            e-commerce online famous brands.
+            applications, websites, CMS and projects for many famous
+            international and UK e-commerce brands.
           </p>
           <p>
             Yasir is especially interested in building scalable websites and
             apps on different platforms utilizing microservice architecture. He
             excels in JavaScript, React/Redux, TypeScript, WordPress and Unit
-            Testing especially Jest, HTML5/CSS3 and Node/Express/MongoDB,
+            Testing, especially Jest, HTML5/CSS3 and Node/Express/MongoDB,
             Python, Git, Npm, Nx and webpack.
           </p>
           <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
