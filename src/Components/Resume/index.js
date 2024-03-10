@@ -102,7 +102,7 @@ class Resume extends Component {
             startYear={2022}
             endYear={"Present"}
             jobName="React Developer at Nbrown"
-            jobDescription="White Labelling and implementing Monorepo for Nbrown upcoming online e-commerce shopping brand SimplyBe and Jacamo. Following best practices with agile methodologies, using latest Tech to be ahead of the market"
+            jobDescription="White Labeling and implementing Monorepo for Nbrown, an upcoming online e-commerce shopping brand, SimplyBe, and Jacamo. Following best practices with agile methodologies, using the latest technology to be ahead of the market"
           />
 
           <Experience
@@ -116,14 +116,14 @@ class Resume extends Component {
             startYear={2020}
             endYear={2020}
             jobName="Front End Developer at Bloc Digital"
-            jobDescription="3 months contract for developing and testing local city railway website and mobile app for android"
+            jobDescription="3 month contract for developing and testing local city railway website and mobile app for android."
           />
 
           <Experience
             startYear={2019}
             endYear={2020}
             jobName="Full Stack Developer at Cognizant"
-            jobDescription="Front End, Back End and Agile software developemnt using React and Node.js for different web-based applications websites for famous brands/clients such as Boots"
+            jobDescription="Front End, Back End and Agile software development using React and Node.js for different web-based applications for famous brands/clients, such as Boots."
           />
 
           <Experience
@@ -144,14 +144,14 @@ class Resume extends Component {
             startYear={2016}
             endYear={2018}
             jobName="Freelancer.com"
-            jobDescription="Several freelancing project on Front End using HTML/CSS, Wordpress, Jquey, Bootstrap and JavaScript"
+            jobDescription="Several freelancing projects on Front End use HTML/CSS, WordPress, Jquery, Bootstrap and JavaScript."
           />
 
           <Experience
             startYear={2015}
             endYear={2018}
             jobName="Founder at Myphone.fi"
-            jobDescription="Develop and maintain fully e-commerce website with online Finnish Banking payment system and Paypal"
+            jobDescription="Develop and maintain a full e-commerce website with an online Finnish banking payment system and PayPal"
           />
 
           <hr style={{ borderTop: "3px solid #e22947" }} />
