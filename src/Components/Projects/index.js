@@ -68,7 +68,7 @@ class Projects extends Component {
             <Button>
               {" "}
               <a
-                href="https://github.com/Yasir1986/snake-game-js-for-newbies"
+                href="https://github.com/Yasir1986/Calculator"
                 rel="noopener noreferrer"
                 target="blank"
               >
@@ -96,7 +96,7 @@ class Projects extends Component {
             <Button>
               {" "}
               <a
-                href="https://github.com/Yasir1986/Chat-App"
+                href="https://github.com/Yasir1986/Quiz-App"
                 rel="noopener noreferrer"
                 target="blank"
               >
@@ -148,19 +148,7 @@ class Projects extends Component {
             }}
           ></CardTitle>
           <CardText>MongoDB Projects</CardText>
-          <CardActions border>
-            <Button>
-              {" "}
-              <a
-                href="https://github.com/Yasir1986/Task-Manager"
-                rel="noopener noreferrer"
-                target="blank"
-              >
-                {" "}
-                Github
-              </a>
-            </Button>
-          </CardActions>
+
           <CardMenu style={{ color: "#fff" }} />
         </Card>
       );
@@ -179,7 +167,7 @@ class Projects extends Component {
           <Tab>JavaScript</Tab>
           <Tab>React</Tab>
           <Tab>React/Redux</Tab>
-          <Tab>MongoDB</Tab>
+          {/*    <Tab>MongoDB</Tab> */}
         </Tabs>
 
         <section className="projects-grid">

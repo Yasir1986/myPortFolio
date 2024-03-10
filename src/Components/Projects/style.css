@@ -6,21 +6,23 @@
   }
 }
 
-@media (max-width: 420px) {
-  .category-tabs {
-    width: auto;
-    background: yellow;
-  }
-}
-
 @media (max-width: 600px) {
   .mdl-tabs__tab {
     font-size: 9px !important;
+    overflow: hidden;
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 280px) {
+  .category-tabs {
+    width: auto;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 280px) {
   .mdl-tabs__tab {
     font-size: 9px !important;
+    overflow: hidden;
   }
 }

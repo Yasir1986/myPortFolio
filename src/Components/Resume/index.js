@@ -32,7 +32,7 @@ class Resume extends Component {
           <p>
             Yasir is especially interested in building scalable websites and
             apps on different platforms utilizing microservice architecture. He
-            excels in JavaScript, React/Redux, TypeScript, WordPress and Unit
+            excels in JavaScript, React/Redux, TypeScript, Next.js, WordPress and Unit
             Testing, especially Jest, HTML5/CSS3 and Node/Express/MongoDB,
             Python, Git, Npm, Nx and webpack.
           </p>
@@ -102,7 +102,7 @@ class Resume extends Component {
             startYear={2022}
             endYear={"Present"}
             jobName="React Developer at Nbrown"
-            jobDescription="White Labeling and implementing Monorepo for Nbrown, an upcoming online e-commerce shopping brand, SimplyBe, and Jacamo. Following best practices with agile methodologies, using the latest technology to be ahead of the market"
+            jobDescription="White Labeling and implementing Monorepo for Nbrown, an upcoming online e-commerce shopping brand, SimplyBe, and Jacamo. Following best practices with agile methodologies, using the latest technology to be ahead of the market."
           />
 
           <Experience
@@ -130,14 +130,14 @@ class Resume extends Component {
             startYear={2019}
             endYear={2019}
             jobName="Software Developer at Vainu.io"
-            jobDescription="Building a spin-off of their real product with stripe integration using React, ES6, styled-components and material-ui"
+            jobDescription="Building a spin-off of their real product with stripe integration using React, ES6, styled-components and material-ui."
           />
 
           <Experience
             startYear={2018}
             endYear={2018}
             jobName="Front End Developer at Integrify"
-            jobDescription="Real Life assement project for Integrify Using React/Redux and Nodejs/Express"
+            jobDescription="Real Life assement project for Integrify Using React/Redux and Nodejs/Express."
           />
 
           <Experience
@@ -151,7 +151,7 @@ class Resume extends Component {
             startYear={2015}
             endYear={2018}
             jobName="Founder at Myphone.fi"
-            jobDescription="Develop and maintain a full e-commerce website with an online Finnish banking payment system and PayPal"
+            jobDescription="Develop and maintain a full e-commerce website with an online Finnish banking payment system and PayPal."
           />
 
           <hr style={{ borderTop: "3px solid #e22947" }} />
@@ -161,24 +161,25 @@ class Resume extends Component {
           <div className="skills-wrapper">
             <Skills skill="Typescript" progress={80} />
 
-            <Skills skill="JavaScript/ES6" progress={85} />
-
             <Skills skill="React/Redux" progress={85} />
 
-            <Skills skill="Monorepo/Nx" progress={75} />
+            <Skills skill="Next.js" progress={88} />
+
+            <Skills skill="JavaScript/ES6" progress={85} />
+
+            <Skills skill="Unit Testing(Jest)" progress={80} />
 
             <Skills skill="HTML/CSS" progress={95} />
 
             <Skills skill="Material-UI/Bootstrap" progress={90} />
 
-            <Skills skill="Nodejs/Express" progress={65} />
+            <Skills skill="Monorepo/Nx" progress={75} />
 
-            <Skills skill="Unit Testing(Jest)" progress={80} />
+            <Skills skill="Nodejs/Express" progress={55} />
 
             <Skills skill="Git / Npm / Webpack / Gulp" progress={92} />
           </div>
         </Cell>
-        {/*   <MiniFooter /> */}
       </Grid>
     );
   }
