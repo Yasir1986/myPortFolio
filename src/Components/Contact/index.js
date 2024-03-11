@@ -16,7 +16,7 @@ class Contact extends Component {
                   alt="avatar"
                   style={{ height: "250px" }}
                 />
-                <p>For any kind of inquiry, conatct me :)</p>
+                <p>For any kind of inquiry, contact me :)</p>
               </div>
             </Cell>
             <Cell col={6}>
