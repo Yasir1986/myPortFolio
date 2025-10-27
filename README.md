@@ -6,7 +6,7 @@ Follow the steps to run this myPortFolio
 
 3)npm start
 
-Enjoy
+Enjoy :)
 
 Or
 
