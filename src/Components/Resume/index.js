@@ -101,7 +101,7 @@ class Resume extends Component {
           <Experience
             startYear={2022}
             endYear={"Present"}
-            jobName="React Developer at Nbrown"
+            jobName="Software Developer at Nbrown"
             jobDescription="White Labeling and implementing Monorepo for Nbrown, an upcoming online e-commerce shopping brand, SimplyBe, and Jacamo. Following best practices with agile methodologies, using the latest technology to be ahead of the market."
           />
 
