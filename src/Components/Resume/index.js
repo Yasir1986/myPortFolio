@@ -102,7 +102,7 @@ class Resume extends Component {
             startYear={2022}
             endYear={"Present"}
             jobName="Software Developer at Nbrown"
-            jobDescription="White Labeling and implementing Monorepo for Nbrown, an upcoming online e-commerce shopping brand, SimplyBe, Jacamo and JDWilliams. Following best practices with agile methodologies, using the latest technology to be ahead of the market."
+            jobDescription="White Labeling and implementing Monorepo for Nbrown, an upcoming online e-commerce shopping brand: SimplyBe, Jacamo and JDWilliams. Following best practices with agile methodologies, using the latest technology to be ahead of the market."
           />
 
           <Experience
