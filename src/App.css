@@ -14,8 +14,8 @@ body {
   --mainColor: red;
 }
 a {
-  color: var(--mainColor);
   text-decoration: none;
+  color: var(--mainColor);
 }
 
 a:hover {
